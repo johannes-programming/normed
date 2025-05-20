@@ -24,7 +24,7 @@ keywords = []
 name = "normed"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "0.1.0"
+version = "0.1.0+local"
 
 [project.license]
 file = "LICENSE.txt"
@@ -33,3 +33,4 @@ file = "LICENSE.txt"
 Download = "https://pypi.org/project/normed/#files"
 Index = "https://pypi.org/project/normed/"
 Source = "https://github.com/johannes-programming/normed/"
+Website = "https://normed.johannes-programming.online/"
