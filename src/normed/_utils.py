@@ -19,6 +19,7 @@ def getannotations(annotations: dict) -> dict:
 
 def getclass(norm: Callable, /, *_args: Any, **_kwargs: Any) -> type:
     "This function creates a class using a given base and a given norm."
+    raise Exception((_args, _kwargs))
 
     class Ans(*_args, **_kwargs):
         "This class will be returned after overwriting this current doc string."

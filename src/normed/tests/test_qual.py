@@ -1,6 +1,8 @@
 import unittest
 
-from normedtuple.core import normedtuple
+from normed.core import getdecorator
+
+normedtuple = getdecorator(tuple)
 
 
 # Top-level norm function

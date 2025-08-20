@@ -2,7 +2,9 @@ import unittest
 from inspect import signature
 from typing import Self
 
-from normedtuple.core import normedtuple
+from normed.core import getdecorator
+
+normedtuple = getdecorator(tuple)
 
 
 # Example norm function
